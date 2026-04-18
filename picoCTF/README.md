@@ -1,1 +1,30 @@
+# picoCTF Writeups
+
+This section contains writeups from picoCTF challenges. The goal of this repository is to demonstrate my approach to solving CTF challenges and to track my progress in developing practical cybersecurity skills.
+
+## Focus Areas
+- Web exploitation
+- Cryptography
+- Binary exploitation
+- Reverse engineering
+- Forensics
+- General skills
+
+## Structure
+Challenges are organised by category:
+
+- [Web exploitation](./web-exploitation/)
+- [Cryptography](./cryptography/)
+- [Binary exploitation](./binary exploitation/)
+- [Reverse Engineering](./reverse-engineering/)
+- [Forensics](./forensics/)
+- [General skills](./general-skills/)
+
+Each writeup includes:
+-	An overview of the challenge
+-	Initial observations and reconnaissance
+-	Vulnerability analysis
+-	Exploitation steps
+-	Supporting scripts or tools where applicable
+-	Key takeaways
 
