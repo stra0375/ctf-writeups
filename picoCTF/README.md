@@ -1,6 +1,6 @@
 # picoCTF Writeups
 
-This section contains writeups from picoCTF challenges. The goal of this repository is to demonstrate my approach to solving CTF challenges and to track my progress in developing practical cybersecurity skills.
+This section contains writeups from picoCTF challenges. The goal of this repository is to demonstrate my approach to solving CTF challenges and to track my progress in developing practical cybersecurity skills across various disciplines.
 
 ## Focus Areas
 - Web exploitation
