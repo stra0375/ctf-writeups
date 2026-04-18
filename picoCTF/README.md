@@ -15,7 +15,7 @@ Challenges are organised by category:
 
 - [Web exploitation](./web-exploitation/)
 - [Cryptography](./cryptography/)
-- [Binary exploitation](./binary exploitation/)
+- [Binary exploitation](./binary-exploitation/)
 - [Reverse Engineering](./reverse-engineering/)
 - [Forensics](./forensics/)
 - [General skills](./general-skills/)
