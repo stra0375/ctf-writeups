@@ -28,3 +28,9 @@ Each writeup includes:
 -	Supporting scripts or tools where applicable
 -	Key takeaways
 
+### Writeups Index
+#### 🌐 Web Exploitation
+| Challenge | Difficulty | Key Concepts | Link |
+|-----------|-----------|--------------|------|
+| Crack the Gate 1 | 🟢 Easy | HTTP Headers, ROT13, HTML Inspection | [Writeup](picoCTF/web-exploitation/easy/crack-the-gate-1/) |
+
