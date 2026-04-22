@@ -37,4 +37,6 @@ Each writeup includes:
 | Unminify | Easy | HTTP Inspection, source code, devtools, curl | [Writeup](/picoCTF/web-exploitation/easy/Unminify/) |
 | WebDecode | Easy | HTTP Inspection, devtools, base64 | [Writeup](/picoCTF/web-exploitation/easy/Webdecode/) |
 | Bookmarklet | Easy | Bookmarklet, JavaScript, client-side | [Writeup](/picoCTF/web-exploitation/easy/Bookmarklet/) |
+| Includes | Easy | DevTools, JavaScript, CSS, HTML Inspection | [Writeup](/picoCTF/web-exploitation/easy/Includes/) |
+| Dont use client side | Easy | DevTools, JavaScript | [Writeup](/picoCTF/web-exploitation/easy/dont-use-client-side/) |
 
