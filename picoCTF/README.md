@@ -50,5 +50,17 @@ Each writeup includes:
 | Where are the robots | Easy | robots.txt | [Writeup](/picoCTF/web-exploitation/easy/Where-are-the-robots/) |
 
 
+#### 🔐 Cryptography
+| Challenge | Difficulty | Key Concepts | Link |
 
+#### 🪛 Binary Exploitation
+| Challenge | Difficulty | Key Concepts | Link |
 
+#### 🔍 Reverse Engineering
+| Challenge | Difficulty | Key Concepts | Link |
+
+#### 🕵️ Forensics
+| Challenge | Difficulty | Key Concepts | Link |
+
+#### 🛠️ General Skills
+| Challenge | Difficulty | Key Concepts | Link |
