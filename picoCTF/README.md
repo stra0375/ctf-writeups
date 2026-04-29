@@ -32,11 +32,23 @@ Each writeup includes:
 #### 🌐 Web Exploitation
 | Challenge | Difficulty | Key Concepts | Link |
 |-----------|-----------|--------------|------|
+| Bookmarklet | Easy | Bookmarklet, JavaScript, Web exploitation, client-side | [Writeup](/picoCTF/web-exploitation/easy/Bookmarklet/) |
+| Cookie Monster Secret Recipe | Easy | DevTools, cookies, base64, cURL | [Writeup](/picoCTF/web-exploitation/easy/Cookie-monster-secret-recipe/) |
 | Crack the Gate 1 | Easy | HTTP Headers, ROT13, HTML Inspection | [Writeup](/picoCTF/web-exploitation/easy/crack-the-gate-1/) |
+| Dont use client side | Easy | DevTools, JavaScript | [Writeup](/picoCTF/web-exploitation/easy/dont-use-client-side/) |
+| GET aHEAD | Easy | HTML request methods, Burp Suite | [Writeup](/picoCTF/web-exploitation/easy/GET-aHEAD/) |
+| Includes | Easy | DevTools, JavaScript, CSS, HTML Inspection | [Writeup](/picoCTF/web-exploitation/easy/Includes/) |
+| Insp3ct0r | Easy | HTML, CSS, JavaScript, DevTools | [Writeup](/picoCTF/web-exploitation/easy/Insp3ct0r/) |
+| Inspect HTML| Easy | HTML, DevTools | [Writeup](/picoCTF/web-exploitation/easy/Inspect-HTML/) |
+| IntroToBurp | Easy | Burp Suite, HTML proxy, 2FA, Burp Repeater | [Writeup](/picoCTF/web-exploitation/easy/IntroToBurp/) |
+| Local Authorty | Easy | DevTools, JavaScript, HTML | [Writeup](/picoCTF/web-exploitation/easy/Local-Authority/) |
+| Logon| Easy | Burp Suite, Burp Repeater, cookies, HTML Headers | [Writeup](/picoCTF/web-exploitation/easy/logon/) |
 | SSTI1 | Easy | SSTI, jinja2, template injection, rce, python | [Writeup](/picoCTF/web-exploitation/easy/SSTI1/) |
+| Scavenger Hunt | Easy | HTML, CSS, JavaScript, robots.txt, apache, .DS_Store | [Writeup](/picoCTF/web-exploitation/easy/Scavenger-Hunt/) |
 | Unminify | Easy | HTTP Inspection, source code, devtools, curl | [Writeup](/picoCTF/web-exploitation/easy/Unminify/) |
 | WebDecode | Easy | HTTP Inspection, devtools, base64 | [Writeup](/picoCTF/web-exploitation/easy/Webdecode/) |
-| Bookmarklet | Easy | Bookmarklet, JavaScript, client-side | [Writeup](/picoCTF/web-exploitation/easy/Bookmarklet/) |
-| Includes | Easy | DevTools, JavaScript, CSS, HTML Inspection | [Writeup](/picoCTF/web-exploitation/easy/Includes/) |
-| Dont use client side | Easy | DevTools, JavaScript | [Writeup](/picoCTF/web-exploitation/easy/dont-use-client-side/) |
+| Where are the robots | Easy | robots.txt | [Writeup](/picoCTF/web-exploitation/easy/Where-are-the-robots/) |
+
+
+
 
