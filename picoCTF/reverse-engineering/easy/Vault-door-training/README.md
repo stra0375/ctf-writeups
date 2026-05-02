@@ -3,7 +3,7 @@
 **Platform:** picoCTF  
 **Category:** Reverse Engineering 
 **Difficulty:** Easy  
-**Tags:** `cyberchef` `Big Endian`
+**Tags:** `java` `source code`
 
 ---
 
