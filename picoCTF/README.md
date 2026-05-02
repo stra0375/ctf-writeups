@@ -58,6 +58,10 @@ Each writeup includes:
 
 #### 🔍 Reverse Engineering
 | Challenge | Difficulty | Key Concepts | Link |
+| Flag Hunters | Easy | python, reverse engineering | [Writeup](/picoCTF/reverse-engineering/easy/Flag-Hunters/) |
+| Transformation | Easy | cheberchef, Big Endian | [Writeup](/picoCTF/reverse-engineering/easy/Transofrmation/) |
+| vault-door-training | Easy | java, source code | [Writeup](/picoCTF/reverse-engineering/easy/Vault-door-training/) |
+
 
 #### 🕵️ Forensics
 | Challenge | Difficulty | Key Concepts | Link |
