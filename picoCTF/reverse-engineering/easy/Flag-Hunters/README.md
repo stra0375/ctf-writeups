@@ -223,7 +223,7 @@ picoCTF{70637h3r_xxxxxxx_xxxxxxxx}
 
 | # | Lesson |
 |---|--------|
-| 1 | **Command injection via delimiters**: when user input is split and evaluated as commands, an attacker can inject extra commands by including the delimiter (here `;`) in their inpu |
+| 1 | **Command injection via delimiters**: when user input is split and evaluated as commands, an attacker can inject extra commands by including the delimiter (here `;`) in their input |
 | 2 | A custom interpreter that supports a `RETURN`/jump instruction is essentially a programmable pointer — controlling it lets you reach any part of the data |
 | 3 | Hidden data at offset 0 (or any fixed offset) can be exposed simply by resetting the instruction pointer to that offset |
 | 4 | Always sanitise or reject delimiter characters in user-facing input fields before passing the input to an interpreter |
