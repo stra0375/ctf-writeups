@@ -21,7 +21,7 @@ I wonder what this really is... enc ''.join([chr((ord(flag[i]) << 8) + ord(flag[
 
 Clicking on enc downloads a txt file which contains a single encoded string. It is a sequence of characters that does not immediately resemble ASCII text or a familiar encoding:
 
-![Text file](screenshots/textfile.png)
+`灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸形㝦㘲捡㕽`
 
 ---
 
