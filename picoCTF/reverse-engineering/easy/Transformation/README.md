@@ -27,7 +27,7 @@ Clicking on enc downloads a txt file which contains a single encoded string. It 
 
 ## Solving the challenge
 
-### 1. Method 1: CyberChef Magic (Intensive Mode)
+### Method 1: CyberChef Magic (Intensive Mode)
 Paste the string into [CyberChef](https://cyberchef.io/), select the **Magic** operation, and enable **Intensive mode**. CyberChef analyses the byte sequence and identifies the encoding as **UTF-16 Big Endian**, then decodes it automatically to reveal the flag.
 
 ![Cyberchef flag](screenshots/cyberchefflag.png)
