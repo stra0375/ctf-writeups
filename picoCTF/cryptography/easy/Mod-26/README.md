@@ -1,4 +1,3 @@
-
 # Mod 26
 
 **Platform:** picoCTF  
