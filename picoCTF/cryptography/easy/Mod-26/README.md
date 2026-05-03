@@ -28,8 +28,6 @@ Cryptography can be easy, do you know what ROT13 is? values.txt
 3. Apply the **"ROT13"** operation (rotation = 13)
 4. The output is the flag
 
----
-
 ![Flag](screenshots/flag.png)
 
 ---
