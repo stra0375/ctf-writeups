@@ -119,7 +119,7 @@ cat flag.txt
 ## Flag
 
 ```
-picoCTF{ph1dd3n_xx_xxxxx_xxxxxxxx}
+picoCTF{h1dd3n_xx_xxxxx_xxxxxxxx}
 ```
 *(Flag redacted)*
 
