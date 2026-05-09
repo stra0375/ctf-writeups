@@ -39,7 +39,7 @@ Inside the metadata, locate the **Author** field. The value will appear to be a 
 Copy the Author string and decode it from Base64 (e.g. using [CyberChef](https://gchq.github.io/CyberChef/) or a terminal):
 
 ```bash
-echo "BASE64STRING" | base64 --decode
+echo "cGljb0NURntwdXp6bDNkX20zdGFkYXRhX2YwdW5KIV9jOGY5MWQ2OH0=" | base64 --decode
 ```
 
 The decoded output is the flag.
