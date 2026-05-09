@@ -1,1 +1,22 @@
+import base64
 
+# Your Base64 string
+base64_string = "replace with your actual image data=" 
+
+# Specify the output file path and name
+output_file_path = "output_image.png"
+
+try:
+    # Decode the Base64 string
+    decoded_image_data = base64.b64decode(base64_string)
+
+    # Write the decoded data to a file
+    with open(output_file_path, "wb") as f:
+        f.write(decoded_image_data)
+
+    print(f"Image successfully generated and saved as '{output_file_path}'")
+
+except base64.binascii.Error as e:
+    print(f"Error decoding Base64 string: {e}")
+except IOError as e:
+    print(f"Error writing image file: {e}")
