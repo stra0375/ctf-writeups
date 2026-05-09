@@ -115,6 +115,8 @@ except base64.binascii.Error as e:
     print(f"Error decoding Base64 string: {e}")
 except IOError as e:
     print(f"Error writing image file: {e}")
+```
+
 
 ---
 *← [Back to Forensics](../../) | [Back to picoCTF](../../../)*
