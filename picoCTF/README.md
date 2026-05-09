@@ -52,9 +52,21 @@ Each writeup includes:
 
 #### 🔐 Cryptography
 | Challenge | Difficulty | Key Concepts | Link |
+|-----------|-----------|--------------|------|
+| 13 | Easy | ROT13, cyberchef | [Writeup](/picoCTF/cryptography/easy/13/) |
+| Interendec | Easy | ROT13, cyberchef | [Writeup](/picoCTF/cryptography/easy/Interendec/) |
+| Mod 26 | Easy | ROT13, cyberchef | [Writeup](/picoCTF/cryptography/easy/Mod-26/) |
+| The Numbers | Easy | decode, substitution cipher, A1Z26 cipher | [Writeup](/picoCTF/cryptography/easy/The-Numbers/) |
+| Hashcrack | Easy | hash, MD5, SHA1, SHA256 | [Writeup](/picoCTF/cryptography/easy/hashcrack/) |
+
 
 #### 🪛 Binary Exploitation
 | Challenge | Difficulty | Key Concepts | Link |
+|-----------|-----------|--------------|------|
+| Format Strings 0 | Easy | c, buffer overflow, segmentation fault | [Writeup](/picoCTF/binary-exploitation/easy/Format-strings-0/) |
+| Heap 0 | Easy | heap, buffer overflow | [Writeup](/picoCTF/binary-exploitation/easy/Heap-0/) |
+| PIE TIME| Easy | c, memory address, PIE binary | [Writeup](/picoCTF/binary-exploitation/easy/PIE-TIME/) |
+
 
 #### 🔍 Reverse Engineering
 | Challenge | Difficulty | Key Concepts | Link |
@@ -66,6 +78,11 @@ Each writeup includes:
 
 #### 🕵️ Forensics
 | Challenge | Difficulty | Key Concepts | Link |
+|-----------|-----------|--------------|------|
+
 
 #### 🛠️ General Skills
 | Challenge | Difficulty | Key Concepts | Link |
+|-----------|-----------|--------------|------|
+
+
