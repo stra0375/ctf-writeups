@@ -3,7 +3,7 @@
 **Platform:** picoCTF  
 **Category:** Forensics 
 **Difficulty:** Easy  
-**Tags:** `strings` `grep`
+**Tags:** `strings` `grep` `disk image`
 
 ---
 
