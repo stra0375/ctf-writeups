@@ -67,7 +67,7 @@ cat extractedfile.txt
 
 The output appears to be a hex-encoded string.. Paste the hex string into [CyberChef](https://gchq.github.io/CyberChef/) and apply the **From Hex** operation to reveal the flag.
 
-![Cyberchef output 2](screenshots/cyberchef-output.png)
+![Cyberchef output](screenshots/flag.png)
 
 --- 
 
