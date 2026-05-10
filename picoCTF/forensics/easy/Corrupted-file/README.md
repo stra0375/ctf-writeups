@@ -21,7 +21,7 @@ Download the file here.
 
 ## Reconnaissance
 
- Thefile has been corrupted and cannot be opened. We need to repair it to reveal the flag.
+ The file has been corrupted and cannot be opened. We need to repair it to reveal the flag.
 
 --- 
 
