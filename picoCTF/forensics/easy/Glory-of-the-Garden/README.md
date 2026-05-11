@@ -1,7 +1,7 @@
 # Glory of the Garden
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                         
 **Difficulty:** Easy  
 **Tags:** `hexdump` `strings`
 
