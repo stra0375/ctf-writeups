@@ -1,7 +1,7 @@
 # The Numbers
 
 **Platform:** picoCTF  
-**Category:** Cryptography 
+**Category:** Cryptography                                    
 **Difficulty:** Easy  
 **Tags:** `decode` `substitution cipher` `A1Z26 cipher` 
 
