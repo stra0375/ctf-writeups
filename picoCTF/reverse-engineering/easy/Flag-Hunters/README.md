@@ -1,7 +1,7 @@
 # Flag Hunters
 
 **Platform:** picoCTF  
-**Category:** Reverse Engineering 
+**Category:** Reverse Engineering                          
 **Difficulty:** Easy  
 **Tags:** `python` `reverse egineering`
 
