@@ -17,6 +17,8 @@ Play this short game to get familiar with terminal applications and some of the 
 
 Additional details will be available after launching your challenge instance.
 
+---
+
 ## Reconnaissance
 
 The challenge provides a hostname (`verbal-sleep.picoctf.net`) and a port number (`55487`). No binary or source code is given — interaction with the server is the entire challenge.
