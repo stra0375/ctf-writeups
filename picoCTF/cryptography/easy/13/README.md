@@ -1,7 +1,7 @@
 # 13
 
 **Platform:** picoCTF  
-**Category:** Cryptography 
+**Category:** Cryptography                     
 **Difficulty:** Easy  
 **Tags:** `ROT13` `cyberchef` 
 
