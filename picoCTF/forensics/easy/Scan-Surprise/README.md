@@ -1,7 +1,7 @@
 # Scan Surprise
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                          
 **Difficulty:** Easy  
 **Tags:** `QR code` `zbar`
 
