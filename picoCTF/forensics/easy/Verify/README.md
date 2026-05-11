@@ -1,7 +1,7 @@
 # Verify
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                              
 **Difficulty:** Easy  
 **Tags:** `checksum` `SHA256` `grep`
 
