@@ -1,7 +1,7 @@
 # vault-door-training
 
 **Platform:** picoCTF  
-**Category:** Reverse Engineering 
+**Category:** Reverse Engineering                     
 **Difficulty:** Easy  
 **Tags:** `java` `source code`
 
