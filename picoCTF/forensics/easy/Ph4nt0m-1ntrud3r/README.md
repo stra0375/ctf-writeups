@@ -1,7 +1,7 @@
 # Ph4nt0m 1ntrud3r
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                      
 **Difficulty:** Easy  
 **Tags:** `Wireshark` `Base64` 
 
