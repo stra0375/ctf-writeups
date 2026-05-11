@@ -1,7 +1,7 @@
 # Time Machine
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** General skills                           
 **Difficulty:** Easy  
 **Tags:** `git` `COMMIT_EDITMSG`
 
