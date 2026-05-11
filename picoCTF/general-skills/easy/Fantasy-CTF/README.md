@@ -1,7 +1,7 @@
 # FANTASY CTF
 
 **Platform:** picoCTF  
-**Category:** General skills
+**Category:** General skills    
 **Difficulty:** Easy  
 **Tags:** `netcat`
 
