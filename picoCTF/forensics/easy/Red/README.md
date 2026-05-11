@@ -1,7 +1,7 @@
 # RED
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                         
 **Difficulty:** Easy  
 **Tags:** `zsteg` `Base64` `cyberchef`
 
