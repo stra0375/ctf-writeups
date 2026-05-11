@@ -1,7 +1,7 @@
 # Hidden in plainsight
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                                
 **Difficulty:** Easy  
 **Tags:** `exiftool` `Base64` `cyberchef` `steghide` 
 
