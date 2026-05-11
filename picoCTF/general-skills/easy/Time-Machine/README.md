@@ -25,7 +25,7 @@ You can download the challenge files here:
 
 Extracting `challenge.zip` reveals a project directory containing `message.txt` and a `.git` folder. Opening `message.txt` shows the following message:
 
-![messaget](screenshots/message.png)
+![message](screenshots/message.png)
 
 The presence of `.git` means the full commit history is available.
 
