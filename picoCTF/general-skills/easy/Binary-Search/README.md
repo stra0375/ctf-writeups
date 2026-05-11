@@ -1,7 +1,7 @@
 # Binary Search
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** General skills              
 **Difficulty:** Easy  
 **Tags:** `binary search`
 
