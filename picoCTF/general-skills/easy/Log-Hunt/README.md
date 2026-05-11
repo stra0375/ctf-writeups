@@ -1,7 +1,7 @@
 # Log Hunt
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** General skills                    
 **Difficulty:** Easy  
 **Tags:** `log` `grep`
 
