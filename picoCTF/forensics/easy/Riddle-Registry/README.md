@@ -1,7 +1,7 @@
 # Riddle Registry
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                           
 **Difficulty:** Easy  
 **Tags:** `metadata` `Base64` 
 
