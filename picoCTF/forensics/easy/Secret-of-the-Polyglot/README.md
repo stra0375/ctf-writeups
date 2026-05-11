@@ -1,7 +1,7 @@
 # Secret of the Polyglot
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                         
 **Difficulty:** Easy  
 **Tags:** `polyglot files` `exiftool`
 
