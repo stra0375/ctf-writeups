@@ -1,7 +1,7 @@
 # Corrupted file
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                                 
 **Difficulty:** Easy  
 **Tags:** `hexdump` `magic bytes`
 
