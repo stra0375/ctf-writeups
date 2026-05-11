@@ -1,7 +1,7 @@
 # Flag in Flame
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                             
 **Difficulty:** Easy  
 **Tags:** `tesseract` `Base64` `cyberchef`
 
