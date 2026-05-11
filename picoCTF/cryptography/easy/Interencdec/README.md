@@ -1,7 +1,7 @@
 # interencdec
 
 **Platform:** picoCTF  
-**Category:** Cryptography 
+**Category:** Cryptography                            
 **Difficulty:** Easy  
 **Tags:** `base64` `cyberchef` `decode`
 
