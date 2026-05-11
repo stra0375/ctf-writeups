@@ -1,7 +1,7 @@
 # DISKO 1
 
 **Platform:** picoCTF  
-**Category:** Forensics 
+**Category:** Forensics                            
 **Difficulty:** Easy  
 **Tags:** `strings` `grep` `disk image`
 
