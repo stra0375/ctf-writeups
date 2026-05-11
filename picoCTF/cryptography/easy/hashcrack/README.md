@@ -1,7 +1,7 @@
 # hashcrack
 
 **Platform:** picoCTF  
-**Category:** Cryptography 
+**Category:** Cryptography                           
 **Difficulty:** Easy  
 **Tags:** `hash` `MD5` `SHA1` `SHA256`
 
