@@ -87,7 +87,7 @@ cat flag.py                    # reveals part 1
 ```bash
 git diff main feature/part-1
 git diff main feature/part-2
-git diff main feature/part-3                   # reveals part 1
+git diff main feature/part-3                  
 ```
 ![Flag2](screenshots/flag2.png)
 
