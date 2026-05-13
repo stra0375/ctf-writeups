@@ -3,7 +3,7 @@
 **Platform:** picoCTF  
 **Category:** General skills              
 **Difficulty:** Easy  
-**Tags:** `binary search`
+**Tags:** `big endian` `little endian`
 
 ---
 
