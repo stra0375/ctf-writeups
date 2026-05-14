@@ -1,0 +1,14 @@
+import base64
+
+#Open and read the file 
+with open('/home/kali/Desktop/enc_flag') as file:
+    message = file.read()
+
+#While keyword "picoCTF" is not found in the message keep decoding
+while 'picoCTF' not in message:
+    #First decode base64 text to bytes
+    #Then decode the bytes into human readable text string using UTF-8
+    message = base64.b64decode(message).decode('utf-8')
+
+#Print the final message once the while loop is completed i.e. "picoCTF" is found
+print(message)
