@@ -3,7 +3,7 @@
 **Platform:** picoCTF  
 **Category:** General skills              
 **Difficulty:** Easy  
-**Tags:** `find` `regex` `grep` 
+**Tags:** `find` `grep` 
 
 ---
 
