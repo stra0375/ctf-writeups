@@ -79,6 +79,19 @@ Each writeup includes:
 #### 🕵️ Forensics
 | Challenge | Difficulty | Key Concepts | Link |
 |-----------|-----------|--------------|------|
+| CanYouSee | Easy | exiftool, Base64, cyberchef | [Writeup](/picoCTF/forensics/easy/CanYouSee/) |
+| Corrupted file | Easy | hexdump, magic bytes | [Writeup](/picoCTF/forensics/easy/Corrupted-file/) |
+| DISKO 1 | Easy | strings, gre, disk image | [Writeup](/picoCTF/forensics/easy/Disko-1/) |
+| Flag in Flame | Easy | tesseract, Base64, cyberchef | [Writeup](/picoCTF/forensics/easy/Flag-in-flame/) |
+| Glory of the Garden | Easy | hexdump, strings | [Writeup](/picoCTF/forensics/easy/Glory-of-the-Garden) |
+| Hidden in plainsight | Easy | exiftool, Base64, cyberchef, steghide | [Writeup](/picoCTF/forensics/easy/Hidden-in-plainsight/) |
+| Information | Easy | exiftool, Base64, cyberchef | [Writeup](/picoCTF/forensics/easy/Information/) |
+| Ph4nt0m 1ntrud3r | Easy | wireshark, Base64 | [Writeup](/picoCTF/forensics/easy/Ph4nt0m-1ntrud3r/) |
+| Red | Easy | zsteg, Base64, cyberchef | [Writeup](/picoCTF/forensics/easy/Red/) |
+| Riddle Registry | Easy | metadata, Base64 | [Writeup](/picoCTF/forensics/easy/Riddle-Registry/) |
+| Scan Surprise | Easy | QR code, zbar | [Writeup](/picoCTF/forensics/easy/Scan-Surprise/) |
+| Secret of the Polyglot | Easy | polyglot files, exiftool | [Writeup](/picoCTF/forensics/easy/Secret-of-the-Polyglot) |
+| Verify | Easy | checksum, SHA256, grep | [Writeup](/picoCTF/forensics/easy/Verify/) |
 
 
 #### 🛠️ General Skills
