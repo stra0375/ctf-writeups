@@ -1,9 +1,9 @@
-# 
+# Static ain't always noise
 
 **Platform:** picoCTF  
 **Category:** General skills              
 **Difficulty:** Easy  
-**Tags:** `linux`
+**Tags:** `binary` `objdump` `chmod` `bash`
 
 ---
 
@@ -13,45 +13,90 @@
 
 **Description**
 
-Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames.
+Can you look at the data in this binary? The bash script might help!
 
-Addadshashanammu.zip
-          
+static, ltdis.sh
+
+```bash
+#!/bin/bash
+
+
+
+echo "Attempting disassembly of $1 ..."
+
+
+#This usage of "objdump" disassembles all (-D) of the first file given by 
+#invoker, but only prints out the ".text" section (-j .text) (only section
+#that matters in almost any compiled program...
+
+objdump -Dj .text $1 > $1.ltdis.x86_64.txt
+
+
+#Check that $1.ltdis.x86_64.txt is non-empty
+#Continue if it is, otherwise print error and eject
+
+if [ -s "$1.ltdis.x86_64.txt" ]
+then
+	echo "Disassembly successful! Available at: $1.ltdis.x86_64.txt"
+
+	echo "Ripping strings from binary with file offsets..."
+	strings -a -t x $1 > $1.ltdis.strings.txt
+	echo "Any strings found in $1 have been written to $1.ltdis.strings.txt with file offset"
+
+
+
+else
+	echo "Disassembly failed!"
+	echo "Usage: ltdis.sh <program-file>"
+	echo "Bye!"
+fi
+```
+
 ---
 
 ## Reconnaissance
 
-Download a zip file containing deeply nested folders. Navigate through them to find the flag hidden at the bottom of the directory tree.
+A binary file and a shell script (`ltdis.sh`) are provided. Use the script to analyse the binary and find the flag.
 
-The challenge name: *Tab Tab Attack*, is a direct clue. In most terminals, pressing `Tab` autocompletes a path or filename. Pressing it again moves to the next match. Manually `cd`-ing into each folder one by one would take far too long.
+Inspecting `ltdis.sh` reveals two key lines. First, `$1` is used as a placeholder for the binary filename passed as an argument. Second, `objdump` is called with `-D` (disassemble all sections) and `-j .text` (focus on the text/code section), and the output is written to a `.txt` file.
 
 --- 
 
 ## Solving the challenge
 
-### 1. Use Tab to navigate quickly
+### 1. Read the script source
 
-Instead of typing each folder name in full, type `cd ` followed by the first few characters of the folder name, then press `Tab` to autocomplete. Press `Tab` again to descend into the next folder. Keep repeating until the terminal can no longer autocomplete further.
-
-```bash
-cd <start of folder name><Tab><Tab><Tab>...
-```
-
-This rapidly traverses the entire nested structure.
+The script uses `$1` as the filename argument and calls `objdump` to disassemble the binary, writing the result to disk.
 
 --- 
 
-### 2. Find and read the flag file
+### 2. Make the script executable
 
 ```bash
-ls
+chmod +x ltdis.sh
 ```
 
-A file will be present. Run it to retrieve the flag:
+--- 
+
+### 3. Run the script against the binary
 
 ```bash
-./fang-of-haynekhtnamet
+bash ltdis.sh static
 ```
+
+![Run Program](screenshots/run-program.png)
+
+--- 
+
+### 4. Inspect the output files
+
+Three files are created. Open each one and search for the flag string:
+
+```bash
+grep -i 'pico' static.ltdis.strings.txt
+```
+
+The flag will appear in one of the output files.
 
 ![Flag](screenshots/flag.png)
 
