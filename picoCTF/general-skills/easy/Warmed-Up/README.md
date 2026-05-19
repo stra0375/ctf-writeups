@@ -1,66 +1,51 @@
-# Tab, Tab, Attack
+# Warmed Up
 
 **Platform:** picoCTF  
 **Category:** General skills              
 **Difficulty:** Easy  
-**Tags:** `linux`
+**Tags:** `hexadecimal`
 
 ---
 
 ## Challenge Description
 
-**Author:** syreal
+**Author:** Sanjay C/Danny Tunitis
 
 **Description**
 
-Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames.
+What is 0x3D (base 16) in decimal (base 10)?
 
-Addadshashanammu.zip
           
 ---
 
 ## Reconnaissance
 
-Download a zip file containing deeply nested folders. Navigate through them to find the flag hidden at the bottom of the directory tree.
-
-The challenge name: *Tab Tab Attack*, is a direct clue. In most terminals, pressing `Tab` autocompletes a path or filename. Pressing it again moves to the next match. Manually `cd`-ing into each folder one by one would take far too long.
+`0x3D` is a hexadecimal (base 16) number. The challenge requires converting it to its decimal (base 10) equivalent.
 
 --- 
 
 ## Solving the challenge
 
-### 1. Use Tab to navigate quickly
+### 1. Convert hex to decimal
 
-Instead of typing each folder name in full, type `cd ` followed by the first few characters of the folder name, then press `Tab` to autocomplete. Press `Tab` again to descend into the next folder. Keep repeating until the terminal can no longer autocomplete further.
+Using Python:
 
-```bash
-cd <start of folder name><Tab><Tab><Tab>...
+```python
+print(int('0x3D', 16))  # Output: 61
 ```
 
-This rapidly traverses the entire nested structure.
+Or manually:
 
---- 
-
-### 2. Find and read the flag file
-
-```bash
-ls
 ```
-
-A file will be present. Run it to retrieve the flag:
-
-```bash
-./fang-of-haynekhtnamet
+0x3D = (3 × 16) + (13 × 1) = 48 + 13 = 61
 ```
-
-![Flag](screenshots/flag.png)
 
 --- 
 
 ## Flag
 
 ```
-picoCTF{l3v3l_xxx_xxxx_x_xxxxx_xxxxxxxx}
+picoCTF{16}
 ```
 *(Flag redacted)*
 
@@ -70,9 +55,10 @@ picoCTF{l3v3l_xxx_xxxx_x_xxxxx_xxxxxxxx}
 
 | # | Lesson |
 |---|--------|
-| 1 | Tab completion in the terminal is a powerful navigation tool, by pressing `Tab` it autocompletes filenames and directory names, saving significant time |
-| 2 | When faced with deeply nested structures, always look for a shortcut (shell completion, `find`, `ls -R`) rather than navigating manually |
-| 3 | `find . -type f` is another way to locate a file buried in nested directories without navigating each folder by hand |
+| 1 | Hexadecimal (base 16) uses digits 0–9 and letters A–F, where A=10, B=11, C=12, D=13, E=14, F=15 |
+| 2 | To convert hex to decimal: multiply each digit by its power of 16 and sum the results |
+| 3 | Python's `int('0x3D', 16)` is the fastest way to convert any hex string to decimal |
+| 4 | The `0x` prefix is a standard convention indicating a hexadecimal literal in most programming languages |
 
 
 ---
