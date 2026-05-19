@@ -105,19 +105,33 @@ The flag will appear in one of the output files.
 ## Flag
 
 ```
-picoCTF{l3v3l_xxx_xxxx_x_xxxxx_xxxxxxxx}
+picoCTF{d15a5m_xxxxxx_xxxxxxxx}
 ```
 *(Flag redacted)*
 
 ---
 
+> **Alternative approach:** A Python script (as that used in challenge: Wave a flag) that opens the binary in `rb` mode and prints its contents can also reveal the flag. Use `Shift + Ctrl + F` in your editor to search for `pico` across all open files.
+
+
+```python
+file = open("static", "rb")
+
+binaryf = file.read()
+print(binaryf)
+
+file.close()
+```
+
 ## Key takeaways
 
 | # | Lesson |
 |---|--------|
-| 1 | Tab completion in the terminal is a powerful navigation tool, by pressing `Tab` it autocompletes filenames and directory names, saving significant time |
-| 2 | When faced with deeply nested structures, always look for a shortcut (shell completion, `find`, `ls -R`) rather than navigating manually |
-| 3 | `find . -type f` is another way to locate a file buried in nested directories without navigating each folder by hand |
+| 1 | `objdump -D -j .text <binary>` disassembles the code section of a binary into human-readable assembly instructions and can expose embedded strings |
+| 2 | Shell scripts use `$1`, `$2`, etc. as positional parameters. `$1` is always the first argument passed on the command line |
+| 3 | `grep` is indispensable when hunting for a known string across large output files: `grep -i 'pico' file.txt` performs a case-insensitive search |
+| 4 | Multiple approaches often solve the same challenge, `strings`, `objdump`, a hex editor, and custom Python scripts are all valid tools for binary analysis |
+
 
 
 ---
