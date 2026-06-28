@@ -1,4 +1,4 @@
-# Big Zip
+# First Find
 
 **Platform:** picoCTF  
 **Category:** General skills              
