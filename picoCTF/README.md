@@ -97,5 +97,42 @@ Each writeup includes:
 #### 🛠️ General Skills
 | Challenge | Difficulty | Key Concepts | Link |
 |-----------|-----------|--------------|------|
+| 2warm | Easy | binary | [Writeup](/picoCTF/general-skills/easy/2warm/) |
+| Bases | Easy | base64 | [Writeup](/picoCTF/general-skills/easy/Bases/) |
+| Big Zip | Easy | grep | [Writeup](/picoCTF/general-skills/easy/Big-Zip/) |
+| Binary Search | Easy | binary search | [Writeup](/picoCTF/general-skills/easy/Binary-Search/) |
+| Binhexa | Easy | bitwise operation, binary | [Writeup](/picoCTF/general-skills/easy/Binhexa/) |
+| Blame Game | Easy | git | [Writeup](/picoCTF/general-skills/easy/Blame-Game/) |
+| Codebook | Easy | python | [Writeup](/picoCTF/general-skills/easy/Codebook/) |
+| Collaborative Development | Easy | git | [Writeup](/picoCTF/general-skills/easy/Collaborative-Development/) |
+| Commitment Issues | Easy | git | [Writeup](/picoCTF/general-skills/easy/Commitment-issues/) |
+| convertme.py | Easy | python | [Writeup](/picoCTF/general-skills/easy/Convertme/) |
+| endianness | Easy | big endian, little endian | [Writeup](/picoCTF/general-skills/easy/Endianness/) |
+| Fantasy CTF | Easy | netcat | [Writeup](/picoCTF/general-skills/easy/Fantasy-CTF/) |
+| First Find | Easy | find, grep | [Writeup](/picoCTF/general-skills/easy/First-Find/) |
+| First Grep | Easy | grep | [Writeup](/picoCTF/general-skills/easy/First-grep/) |
+| fixme1.py | Easy | python | [Writeup](/picoCTF/general-skills/easy/Fixme1/) |
+| fixme2.py | Easy | python | [Writeup](/picoCTF/general-skills/easy/Fixme2/) |
+| Glitch Cat | Easy | grep | [Writeup](/picoCTF/general-skills/easy/Glitch-Cat/) |
+| HashingJobApp | Easy | md5 | [Writeup](/picoCTF/general-skills/easy/HashingJobApp/) |
+| Lets Warm Up | Easy | hexadecimal, ASCII | [Writeup](/picoCTF/general-skills/easy/Lets-Warm-Up/) |
+| Log Hunt | Easy | log, grep | [Writeup](/picoCTF/general-skills/easy/Log-Hunt/) |
+| Magikarp Ground Mission | Easy | linux | [Writeup](/picoCTF/general-skills/easy/Magikarp-Ground-Mission/) |
+| Nice netcat... | Easy | netcat, ASCII | [Writeup](/picoCTF/general-skills/easy/Nice-Netcat/) |
+| Obedient Cat | Easy | source code | [Writeup](/picoCTF/general-skills/easy/Obedient-Cat/) |
+| PW Crack 1 | Easy | hash | [Writeup](/picoCTF/general-skills/easy/PW-Crack-1/) |
+| PW Crack 2 | Easy | hash | [Writeup](/picoCTF/general-skills/easy/PW-Crack-2/) |
+| Python Wrangling | Easy | python | [Writeup](/picoCTF/general-skills/easy/Python-Wrangling/) |
+| repetitions | Easy | base64 | [Writeup](/picoCTF/general-skills/easy/Repetitions/) |
+| runme.py | Easy | python | [Writeup](/picoCTF/general-skills/easy/Runme/) |
+| Static ain't always noise | Easy | binary, objdump, chmod, bash | [Writeup](/picoCTF/general-skills/easy/Static-aint-always-noise/) |
+| Strings it | Easy | binary, strings, chmod | [Writeup](/picoCTF/general-skills/easy/Strings-it/) |
+| Super SSH | Easy | ssh | [Writeup](/picoCTF/general-skills/easy/Super-SSH/) |
+| Tab, Tab, Attack | Easy | linux | [Writeup](/picoCTF/general-skills/easy/Tab-tab-attack/) |
+| Time Machine | Easy | bgit, COMMIT_EDITMSG | [Writeup](/picoCTF/general-skills/easy/Time-Machine/) |
+| Warmed Up | Easy | hexadecimal | [Writeup](/picoCTF/general-skills/easy/Warmed-Up/) |
+| Wave a flag | Easy | binary file | [Writeup](/picoCTF/general-skills/easy/Wave-a-flag/) |
+| What's a net cat? | Easy | netcat | [Writeup](/picoCTF/general-skills/easy/Whats-a-net-cat/) |
+
 
 
